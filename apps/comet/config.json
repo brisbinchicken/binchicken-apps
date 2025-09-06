@@ -1,0 +1,24 @@
+{
+  "id": "comet",
+  "name": "Comet",
+  "description": "Stremio's fastest torrent/debrid search add-on.",
+  "version": "latest",
+  "image": "ghcr.io/g0ldyy/comet:latest",
+  "available": true,
+  "in_store": true,
+  "options": {
+    "network_mode": "bridge"
+  },
+  "form": [
+    {
+      "id": "DEBRID_PROVIDER",
+      "label": "Debrid Provider",
+      "description": "Your debrid provider (e.g., realdebrid, alldebrid, premiumize)."
+    },
+    {
+      "id": "DEBRID_KEY",
+      "label": "Debrid API Key",
+      "description": "Your API key for the selected debrid service."
+    }
+  ]
+}
