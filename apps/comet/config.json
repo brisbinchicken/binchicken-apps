@@ -1,0 +1,15 @@
+{
+  "id": "comet",
+  "name": "Comet",
+  "description": "Stremio-style torrent/debrid search add-on/comet (fast torrent indexer)",
+  "short_desc": "Fast torrent/debrid search add-on",
+  "version": "0.1.0",
+  "author": "g0ldyy",
+  "source": "https://github.com/g0ldyy/comet",
+  "website": "https://github.com/g0ldyy/comet",
+  "categories": ["Media"],
+  "supported_architectures": ["amd64", "arm64"],
+  "dynamic_config": true,
+  "available": true,
+  "port": 8000
+}
