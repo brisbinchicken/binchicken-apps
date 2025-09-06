@@ -1,11 +1,24 @@
 {
   "id": "comet",
   "name": "Comet",
-  "description": "Stremio's fastest torrent/debrid search add-on.",
   "version": "latest",
+  "tipi_version": 1,
   "image": "ghcr.io/g0ldyy/comet:latest",
+  "source": "https://github.com/g0ldyy/comet",
   "available": true,
   "in_store": true,
+  "exposable": true,
+  "port": 8000,
+  "short_desc": "Stremio torrent/debrid search add-on",
+  "description": "Comet is Stremio's fastest torrent/debrid search add-on, supporting Real-Debrid, All-Debrid, Premiumize, and more.",
+  "categories": [
+    "media",
+    "tools"
+  ],
+  "supported_architectures": [
+    "amd64",
+    "arm64"
+  ],
   "options": {
     "network_mode": "bridge"
   },
