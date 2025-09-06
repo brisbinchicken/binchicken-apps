@@ -1,37 +1,23 @@
 {
-  "id": "comet",
   "name": "Comet",
-  "version": "latest",
-  "tipi_version": 1,
-  "image": "ghcr.io/g0ldyy/comet:latest",
-  "source": "https://github.com/g0ldyy/comet",
+  "id": "comet",
   "available": true,
-  "in_store": true,
-  "exposable": true,
+  "short_desc": "Stremio torrent/debrid search add-on.",
+  "author": "g0ldyy",
   "port": 8000,
-  "short_desc": "Stremio torrent/debrid search add-on",
-  "description": "Comet is Stremio's fastest torrent/debrid search add-on, supporting Real-Debrid, All-Debrid, Premiumize, and more.",
   "categories": [
     "media",
     "tools"
   ],
+  "description": "Comet is Stremio's fastest torrent/debrid search add-on, supporting Real-Debrid, All-Debrid, Premiumize, and more.",
+  "tipi_version": 2,
+  "version": "latest",
+  "source": "https://github.com/g0ldyy/comet",
+  "exposable": true,
   "supported_architectures": [
-    "amd64",
-    "arm64"
+    "arm64",
+    "amd64"
   ],
-  "options": {
-    "network_mode": "bridge"
-  },
-  "form": [
-    {
-      "id": "DEBRID_PROVIDER",
-      "label": "Debrid Provider",
-      "description": "Your debrid provider (e.g., realdebrid, alldebrid, premiumize)."
-    },
-    {
-      "id": "DEBRID_KEY",
-      "label": "Debrid API Key",
-      "description": "Your API key for the selected debrid service."
-    }
-  ]
+  "dynamic_config": true,
+  "form_fields": []
 }
