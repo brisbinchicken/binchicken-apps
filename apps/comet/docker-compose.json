@@ -1,0 +1,10 @@
+{
+  "services": [
+    {
+      "name": "comet",
+      "image": "ghcr.io/g0ldyy/comet:latest",
+      "isMain": true,
+      "internalPort": 8000
+    }
+  ]
+}
