@@ -2,20 +2,9 @@
   "services": [
     {
       "name": "comet",
-      "image": "${COMET_IMAGE:-ghcr.io/g0ldyy/comet:latest}",
-      "internalPort": 8000,
+      "image": "ghcr.io/g0ldyy/comet:latest",
       "isMain": true,
-      "volumes": [
-        {
-          "hostPath": "${APP_DATA_DIR}/config",
-          "containerPath": "/app/config"
-        }
-      ],
-      "environment": {
-        "DEBRID_PROVIDER": "${DEBRID_PROVIDER}",
-        "DEBRID_KEY": "${DEBRID_KEY}",
-        "TZ": "${TIMEZONE:-Etc/UTC}"
-      }
+      "internalPort": 8000
     }
   ]
 }
